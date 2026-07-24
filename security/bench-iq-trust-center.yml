@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://app.drata.com/trust/83ad09b3-2cbb-4faa-ab45-4220fdb5726a
+platform: Drata
+certifications: []
+notes: Bench IQ publishes a Drata-hosted trust center, linked as "Security" from the
+  benchiq.com homepage. The trust portal itself is JavaScript-rendered and returned
+  HTTP 403 to automated fetch, so named certifications could not be verified verbatim
+  and are intentionally left empty rather than assumed. No Compliance pointer is emitted
+  because no certification was confirmed from the page body.
+evidence:
+- source: https://www.benchiq.com
+  kind: homepage security link
+  target: https://app.drata.com/trust/83ad09b3-2cbb-4faa-ab45-4220fdb5726a

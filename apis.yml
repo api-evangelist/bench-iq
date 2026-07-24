@@ -1,7 +1,27 @@
 aid: bench-iq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bench-iq.png
 name: Bench IQ
-description: Bench IQ is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Bench IQ is a legal technology company building an AI-powered judicial
+  intelligence platform that analyzes how individual judges reason and rule. Rather
+  than limiting analysis to the roughly 3% of matters that produce written opinions,
+  Bench IQ studies the reasoning behind all of a judge's rulings so litigators can
+  anticipate decisions, craft stronger arguments, and shape case strategy. Founded
+  by the team behind ROSS Intelligence — CEO Jimoh Ovbiagele and CTO Maxim Isakov —
+  together with former Kirkland & Ellis restructuring partner Jeffrey Gettleman, the
+  company says four of the top five AmLaw 100 firms rely on its analysis. It is backed
+  by Battery Ventures, Inovia Capital, and Haystack, along with leading law firms
+  including Wilson Sonsini Goodrich & Rosati, Fenwick & West, and Cooley.
 url: https://raw.githubusercontent.com/api-evangelist/bench-iq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Legal
+- Legal Tech
+- Artificial Intelligence
+- Judicial Analytics
+- Litigation
+- Legal Research
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/bench-iq-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.benchiq.com/responsible-disclosure
+- type: DomainSecurity
+  url: security/bench-iq-domain-security.yml
+- type: TrustCenter
+  url: security/bench-iq-trust-center.yml
+- type: Website
+  url: https://www.benchiq.com
+- type: About
+  url: https://www.benchiq.com/about-us
+- type: Careers
+  url: https://www.benchiq.com/careers
+- type: Press
+  url: https://www.benchiq.com/press
+- type: PrivacyPolicy
+  url: https://www.benchiq.com/privacy-policy
+- type: Login
+  url: https://app.benchiq.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
